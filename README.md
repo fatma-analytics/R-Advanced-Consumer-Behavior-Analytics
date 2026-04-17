@@ -40,7 +40,7 @@
 ## 📂 Repository Structure
 
 - `marketing project R.R`: The complete R script containing data cleaning, visualization, and modeling.
-- `rapport R fatma hammami (3).pdf`: *This is the full analytical report with detailed findings and visualizations. Due to its size and nature as a comprehensive deliverable, it is not directly included in this repository. A detailed summary is provided in `project_summary.md`.*
+- `rapport R fatma hammami (3).pdf`: Ceci est le rapport analytique complet avec des résultats et des visualisations détaillés. Il est inclus dans ce dépôt. Un résumé détaillé est également fourni dans `project_summary.md`.
 - `project_summary.md`: Executive summary of the strategic insights and methodology.
 - `README.md`: This document.
 
@@ -48,7 +48,7 @@
 
 ## 📖 How to Access the Full Analytical Report
 
-If you are a recruiter or interested party and wish to review the full `rapport R fatma hammami (3).pdf`, please contact Fatma Hammami directly. The report contains in-depth statistical analysis, model diagnostics, and detailed strategic recommendations.
+Le rapport analytique complet `rapport R fatma hammami (3).pdf` est disponible directement dans le dépôt. Il contient une analyse statistique approfondie, des diagnostics de modèle et des recommandations stratégiques détaillées.
 
 ---
 
