@@ -40,9 +40,33 @@
 ## 📂 Repository Structure
 
 - `marketing project R.R`: The complete R script containing data cleaning, visualization, and modeling.
-- `rapport R fatma hammami (3).pdf`: The full analytical report with detailed findings and visualizations.
+- `rapport R fatma hammami (3).pdf`: *This is the full analytical report with detailed findings and visualizations. Due to its size and nature as a comprehensive deliverable, it is not directly included in this repository. A detailed summary is provided in `project_summary.md`.*
 - `project_summary.md`: Executive summary of the strategic insights and methodology.
 - `README.md`: This document.
+
+---
+
+## 📖 How to Access the Full Analytical Report
+
+If you are a recruiter or interested party and wish to review the full `rapport R fatma hammami (3).pdf`, please contact Fatma Hammami directly. The report contains in-depth statistical analysis, model diagnostics, and detailed strategic recommendations.
+
+---
+
+## 🏃‍♀️ How to Run Locally
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/fatma-analytics/R-Advanced-Consumer-Behavior-Analytics.git
+    cd R-Advanced-Consumer-Behavior-Analytics
+    ```
+2.  **Install R and RStudio** (if you haven't already).
+3.  **Open `marketing project R.R`** in RStudio.
+4.  **Install required R packages** (e.g., `tidyverse`, `ggplot2`, `dplyr`, `corrplot`, `randomForest`) by running:
+    ```R
+    install.packages(c("tidyverse", "ggplot2", "dplyr", "corrplot", "randomForest"))
+    ```
+5.  **Run the script** step-by-step to see the data preprocessing, EDA, statistical analysis, and machine learning models in action.
+6.  **Review `project_summary.md`** for a quick overview or `rapport R fatma hammami (3).pdf` (if obtained) for full details.
 
 ---
 
