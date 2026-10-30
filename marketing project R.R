@@ -5,9 +5,11 @@ library(corrplot)
 library(randomForest)
 library(caret)
 
-# Set working directory and load data
-setwd("C:/Users/Asus/Downloads")
-shopping_data <- read.csv("archive.csv")
+# Reproductibilite : graine aleatoire fixee (K-Means, Random Forest)
+set.seed(123)
+
+# Load data (chemin relatif : placer le fichier Kaggle dans data/, voir README)
+shopping_data <- read.csv("data/archive.csv")
 
 # View the first few rows of the dataset
 head(shopping_data)
@@ -323,7 +325,7 @@ print(tukey_results)
 plot(tukey_results)
 
 # Clustering: Elbow Method and Silhouette 
-install.packages("factoextra")
+# install.packages("factoextra")  # a installer une seule fois
 
 library(factoextra)
 
@@ -338,7 +340,7 @@ fviz_nbclust(shopping_data[, c("Purchase.Amount..USD.", "Age")], kmeans, method 
 
 # Breusch-Pagan Test for Heteroscedasticity
 library(lmtest)
-bptest(lm_mode)
+bptest(lm_model)
 # If p-value < 0.05, heteroscedasticity is present.
 
 # Clustering Enhancements with PCA
